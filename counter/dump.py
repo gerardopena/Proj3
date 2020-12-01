@@ -2,7 +2,7 @@ import sys
 import requests
 import json
 
-# This does not work with on of the urls
+# This does not work with one of the urls
 url = str(sys.argv[1])
 r = requests.get(url)
 
